@@ -14,11 +14,11 @@ DOCUMENTATION:
       required: true
     _regex_match:
       description: Regular expression string that defines the match.
-      type: int
+      type: str
       required: true
     _regex_replace:
       description: Regular expression string that defines the replacement.
-      type: int
+      type: str
       required: true
     multiline:
       description: Search across line endings if V(True), do not if otherwise.
